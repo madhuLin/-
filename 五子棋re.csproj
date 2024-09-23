@@ -94,6 +94,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="readme.md" />
     <None Include="resources\gomoku\black.png" />
   </ItemGroup>
   <ItemGroup>
@@ -101,6 +102,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\gomoku\white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resources\show\2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
